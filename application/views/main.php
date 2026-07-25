@@ -68,7 +68,7 @@
 	</a>
 
 	<!-- Call Now -->
-	<a href="tel:<?php echo str_replace(' ', '', str_replace('-', '', str_replace('.', '', $company['hotline']))) ?>" class="floating-phone-label floating-phone-label--phone"><?php echo $company['hotline'] ?></a>
+	<a href="tel:<?php echo str_replace(' ', '', str_replace('-', '', str_replace('.', '', $company['hotline']))) ?>" class="floating-phone-label floating-phone-label--hotline"><?php echo $company['hotline'] ?></a>
 	<a href="tel:<?php echo str_replace(' ', '', str_replace('-', '', str_replace('.', '', $company['hotline']))) ?>" class="phone-call">
 		<img src="<?php echo base_url() ?>assets/frontend/img/call-now-200.png" width="32" alt="Call Now" title="Call Now">
 	</a>
