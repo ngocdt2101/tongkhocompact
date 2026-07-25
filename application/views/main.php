@@ -25,7 +25,7 @@
 	<link rel="stylesheet" href="<?php echo base_url() ?>assets/frontend/css/fontawesome.min.css">
 	<link rel="stylesheet" href="<?php echo base_url() ?>assets/frontend/css/all.min.css">
 	<link rel="stylesheet" href="<?php echo base_url() ?>assets/frontend/css/jquery.fancybox.min.css">
-	<link rel="stylesheet" href="<?php echo base_url() ?>assets/frontend/css/theme.css?v=1.3">
+	<link rel="stylesheet" href="<?php echo base_url() ?>assets/frontend/css/theme.css?v=1.4">
 
 
 	<!-- Google Analytics -->
@@ -60,16 +60,21 @@
 	</div>
 	<!-- scrollToTop end -->
 
-	<!-- Call Now -->
-	<a href="tel:<?php echo str_replace(' ', '', str_replace('-', '', str_replace('.', '', $company['hotline']))) ?>" class="phone-call">
-		<img src="<?php echo base_url() ?>assets/frontend/img/call-now-200.png" width="32" alt="Call Now" title="Call Now">
-	</a>
-
 	<!-- Zalo Chat -->
 	<a href="https://zalo.me/<?php echo str_replace(' ', '', str_replace('-', '', str_replace('.', '', $company['zalo_chat']))) ?>" target="_blank">
 		<div class="zalo-chat">
 			<img src="<?php echo base_url() ?>assets/frontend/img/zalo.png" width="55" alt="zalo_icon">
 		</div>
+	</a>
+
+	<!-- Call Now -->
+	<a href="tel:<?php echo str_replace(' ', '', str_replace('-', '', str_replace('.', '', $company['hotline']))) ?>" class="phone-call">
+		<img src="<?php echo base_url() ?>assets/frontend/img/call-now-200.png" width="32" alt="Call Now" title="Call Now">
+	</a>
+
+	<!-- Call Now -->
+	<a href="tel:<?php echo str_replace(' ', '', str_replace('-', '', str_replace('.', '', $company['phone_number']))) ?>" class="phone-call-2">
+		<img src="<?php echo base_url() ?>assets/frontend/img/call-now-200.png" width="32" alt="Call Now" title="Call Now">
 	</a>
 
 	<!-- Facebook Chat -->

@@ -9,7 +9,7 @@
 						<span><i class="fa fa-navicon"></i></span>
 					</button>
 					<a class="navbar-brand site-header__logo" href="<?php echo base_url() ?>">
-						<img src="<?php echo base_url() ?>assets/frontend/img/compact_logo2.svg" alt="Compact">
+						<img src="<?php echo base_url() ?>assets/frontend/img/logo2.jpg" alt="logo">
 					</a>
 				</div>
 

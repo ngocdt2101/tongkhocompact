@@ -84,7 +84,7 @@ a:focus {
 }
 
 .site-header__logo img {
-	max-height: 58px;
+	max-height: 100px;
 	width: auto;
 }
 
@@ -2252,6 +2252,7 @@ a:focus {
 
 /* Floating Action Icons */
 .phone-call,
+.phone-call-2,
 .zalo-chat {
 	position: fixed;
 	z-index: 999;
@@ -2285,8 +2286,25 @@ a:focus {
 	box-shadow: 0 12px 32px rgba(242, 138, 26, 0.4);
 }
 
-.zalo-chat {
+.phone-call-2 {
 	bottom: 20px;
+	/* background: linear-gradient(135deg, #4123f9, #ff9e3c); */
+	background: #1e73be;
+}
+
+.phone-call-2 img {
+	width: 40px;
+	height: auto;
+	filter: brightness(0) invert(1);
+}
+
+.phone-call-2:hover {
+	transform: scale(1.12);
+	box-shadow: 0 12px 32px rgba(242, 138, 26, 0.4);
+}
+
+.zalo-chat {
+	bottom: 160px;
 	background: linear-gradient(135deg, var(--vc-primary), #35a07f);
 }
 
@@ -2311,6 +2329,7 @@ a:focus {
 
 /* Pulse glow effect */
 .phone-call::before,
+.phone-call-2::before,
 .zalo-chat::before {
 	content: '';
 	position: absolute;
@@ -2326,6 +2345,10 @@ a:focus {
 
 .phone-call::before {
 	color: #f90000;;
+}
+
+.phone-call-2::before {
+	color: #1e73be;
 }
 
 .zalo-chat::before {
@@ -2715,6 +2738,7 @@ a:focus {
 	}
 
 	.phone-call,
+	.phone-call-2,
 	.zalo-chat {
 		width: 48px;
 		height: 48px;
@@ -2726,6 +2750,14 @@ a:focus {
 	}
 
 	.phone-call img {
+		width: 24px;
+	}
+
+	.phone-call-2 {
+		bottom: 80px;
+	}
+
+	.phone-call-2 img {
 		width: 24px;
 	}
 
