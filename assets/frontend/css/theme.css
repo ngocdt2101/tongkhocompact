@@ -2776,9 +2776,9 @@ a:focus {
 	}
 
 	.floating-phone-label {
-		right: 72px;
-		padding: 8px 12px;
-		font-size: 13px;
+        right: 47px;
+        padding: 8px 18px 8px 8px;
+        font-size: 13px;
 	}
 
 	.floating-phone-label--hotline {
