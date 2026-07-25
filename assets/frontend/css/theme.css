@@ -2327,6 +2327,36 @@ a:focus {
 	border-radius: 50%;
 }
 
+.floating-phone-label {
+	position: fixed;
+	right: 60px;
+	z-index: 998;
+	display: inline-flex;
+	align-items: center;
+	padding: 10px 20px 10px 10px;
+	border-radius: 999px;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 1;
+	color: #fff;
+	white-space: nowrap;
+	box-shadow: 0 8px 22px rgba(15, 23, 42, 0.2);
+	animation: none;
+	transform: none;
+	pointer-events: none;
+	user-select: none;
+}
+
+.floating-phone-label--hotline {
+	bottom: 100px;
+	background: linear-gradient(135deg, #ff9e3c, #f90000);
+}
+
+.floating-phone-label--phone {
+	bottom: 32px;
+	background: #1e73be;
+}
+
 /* Pulse glow effect */
 .phone-call::before,
 .phone-call-2::before,
@@ -2743,6 +2773,20 @@ a:focus {
 		width: 48px;
 		height: 48px;
 		right: 16px;
+	}
+
+	.floating-phone-label {
+		right: 72px;
+		padding: 8px 12px;
+		font-size: 13px;
+	}
+
+	.floating-phone-label--hotline {
+		bottom: 90px;
+	}
+
+	.floating-phone-label--phone {
+		bottom: 28px;
 	}
 
 	.phone-call {
