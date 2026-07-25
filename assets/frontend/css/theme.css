@@ -2779,7 +2779,7 @@ a:focus {
         right: 47px;
         padding: 8px 18px 8px 8px;
         font-size: 13px;
-		color: #ffffff;
+		color: #ffffff !important;
 	}
 
 	.floating-phone-label--hotline {
