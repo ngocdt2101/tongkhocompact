@@ -84,8 +84,8 @@ a:focus {
 }
 
 .site-header__logo img {
-	max-height: 100px;
-	width: auto;
+    width: 100px;
+    height: auto;
 }
 
 .site-navbar__collapse {
@@ -2568,7 +2568,7 @@ a:focus {
 		display: flex;
 		justify-content: flex-end;
 		align-items: center;
-		padding: 12px 0 6px;
+		padding: 0;
 		flex-direction: row-reverse;
 		justify-content: space-between;
 	}
@@ -2754,7 +2754,7 @@ a:focus {
 	}
 
 	.phone-call-2 {
-		bottom: 80px;
+		bottom: 20px;
 	}
 
 	.phone-call-2 img {
@@ -2762,7 +2762,7 @@ a:focus {
 	}
 
 	.zalo-chat {
-		bottom: 16px;
+		bottom: 140px;
 	}
 
 	.zalo-chat img {
