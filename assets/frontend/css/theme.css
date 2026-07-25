@@ -778,7 +778,6 @@ a:focus {
 	height: 100%;
 	position: relative;
 }
-}
 
 .blog-post:hover article,
 .product:hover article {
@@ -2329,22 +2328,21 @@ a:focus {
 
 .floating-phone-label {
 	position: fixed;
-	right: 60px;
+	right: 55px;
 	z-index: 998;
 	display: inline-flex;
 	align-items: center;
-	padding: 10px 20px 10px 10px;
+	padding: 10px 23px 10px 10px;
 	border-radius: 999px;
 	font-size: 14px;
 	font-weight: 500;
 	line-height: 1;
-	color: #fff;
+	color: #fff !important;
 	white-space: nowrap;
 	box-shadow: 0 8px 22px rgba(15, 23, 42, 0.2);
 	animation: none;
 	transform: none;
-	pointer-events: none;
-	user-select: none;
+	text-decoration: none;
 }
 
 .floating-phone-label--hotline {
